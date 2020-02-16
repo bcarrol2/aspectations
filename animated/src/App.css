@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+p {
+  color: black;
+}
+
+#box {
+  height: 75px;
+  width: 75px;
+  background-color: white;
+}
