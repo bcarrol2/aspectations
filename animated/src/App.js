@@ -1,6 +1,6 @@
 import React from 'react';
 import Anime from "@mollycule/react-anime";
-import './App.css';
+import './App.scss';
  
 class App extends React.Component {
   render() {
@@ -9,9 +9,9 @@ class App extends React.Component {
         <Anime
           in
           appear
-          duration={1000}
-          onEntering={{ translateY: [-20, 0], opacity: [0, 1] }}
-          onExiting={{ translateY: -20, opacity: 0 }}
+          duration={3000}
+          onEntering={{ translateX: [{value: 15}, {value: '+=0'}], translateY: [{value: 0}, {value: 100}], opacity: [0, 0.7] }}
+          onExiting={{ translateY: -20, opacity: 0.4 }}
           easing="easeOutCubic"
         >
           <section id="box">

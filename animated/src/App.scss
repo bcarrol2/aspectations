@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+#box {
+  height: 25px;
+  width: 75%;
+  background-color: lime;
+  margin: 5px;
+
+  :hover {
+    background-color: rgb(18, 100, 8);
+    transform: translateX(10px);
+    // transform: translateY(-5px);
+    transition: all 1.5s ease;
+  }
+}
+
