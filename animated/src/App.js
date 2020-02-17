@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <div id="tech">
+        <div id="title">
           <h1 style={{color: 'white', fontSize: '55px'}}>App-Tea-n&#10010;1&#9731;</h1>
         </div>
         <Anime
