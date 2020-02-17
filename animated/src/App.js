@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <main>
         <div id="title">
-          <h1 style={{color: 'white', fontSize: '55px'}}>App-Tea-n&#10010;1&#9731;</h1>
+          <h1 style={{color: 'white', fontSize: '55px'}}>App Tea n&#10010;1&#9731;</h1>
         </div>
         <Anime
           in
@@ -33,12 +33,12 @@ class App extends React.Component {
           appear
           duration={1000}
           onEntering={{ translateX: [{value: 15}, {value: '+=0'}], translateY: [{value: 0}, {value: 100}], opacity: [0, 0.7] }}
-          easing = "steps(3)"
+          easing = "steps(10)"
         >
           <section id="bottom-box">
             <div className="centered">
               <div className="moving">
-                <h1>My new year's resolution is 2387 x 1704</h1>
+                <h1>My new year resolution is 2387 x 1704</h1>
               </div>
             </div>
           </section>
