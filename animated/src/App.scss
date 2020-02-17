@@ -11,11 +11,12 @@ body {
   padding-left: 5px;
 
   :hover {
-    background-color: rgb(18, 100, 8);
+    background-color: midnightblue;
     transform: translateX(10px);
     // transform: translateY(-5px);
     transition: all 1.5s ease;
     padding-left: 5px;
+    color: white;
   }
 }
 
@@ -82,4 +83,9 @@ body {
        -webkit-transform: translateX(-100%); /* Firefox bug fix */
        transform: translateX(-100%); 
        }
+}
+
+#tech {
+  float: right;
+  padding-right: 15px;
 }
