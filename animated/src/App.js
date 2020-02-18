@@ -13,7 +13,6 @@ class App extends React.Component {
           in
           appear
           duration={3000}
-          // loop={3}
           onEntering={{ translateX: [{value: 15}, {value: '+=0'}], translateY: [{value: 0}, {value: 100}], opacity: [0, 0.7] }}
           onExiting={{ translateY: -20, opacity: 0.4 }}
           easing="easeOutCubic"
